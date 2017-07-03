@@ -1,6 +1,11 @@
 # Software-Defined-Networking
 
 
-1) Stateless firewall that blocks IP's that are responsible for malicious traffic by analyzing real time data
+1) stateful_firewall.py is the main firewall program(developed from scratch) that blacklists the IP's based on counter and time thresholds. For more information, refer to the presentation attached.
 
-2)Firewall module that detects and prevents intrusion(stateful firewall). It uses fake IP's and fake ports to detect the intrusion.
+2) stateless_firewall.py(modified the module that comes with POX controller to act as a stateful firewall) module can be used along with the main firewall module to block the IP's that you want to block even before the (If the malicious IP list is known beforehand)
+
+3) learning_l2.py(developed from scratch) is the learning module is responsible for learning(discovering) the entire network
+
+Note: stateful_firewall.py module runs along with any other compatible modules.
+For more information on usage, please refer to the presentation.
