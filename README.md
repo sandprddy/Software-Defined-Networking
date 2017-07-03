@@ -9,3 +9,8 @@
 
 Note: stateful_firewall.py module runs along with any other compatible modules.
 For more information on usage, please refer to the presentation.
+
+Execution of the module:
+Run the stateful_firewall.py module along with other modules. You can use the learning_l2.py for learning the network(or any other module which is available in market) and stateless_firewall.py module(to block malicious IP's that are known beforehand)
+  Eg: sudo ~/pox/pox.py learning_l2 stateful_firewall stateless_firewall
+ 
